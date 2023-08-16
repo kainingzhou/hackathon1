@@ -1,0 +1,74 @@
+<html>
+<head>
+   <title>Water</title>
+   <style>
+      .imageGallery {
+         display: flex;
+         flex-wrap: wrap;
+         gap: 3rem;
+         justify-content: center;
+      }
+      img {
+         width: 15rem;
+         height: 15rem;
+         border-radius: 8px;
+         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.489);
+         margin: 10%;
+      }
+
+      figcaption {
+        text-align: center;
+        font-size: x-large;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      h1 {
+        margin: 5%;
+        text-align: center;
+        font-size: 5vw;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: coral;
+      }
+
+      p {
+        margin: 5%;
+        text-align: center;
+        font-size: 2vw;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .anybutton {
+       bottom: 75%;
+       right: 10%;
+       width:120px;
+       height:60px;
+       position: absolute;
+       z-index: 2;
+       background: yellow; 
+       font-weight: bold;
+       font-size: medium;
+       }
+   </style>
+</head>
+<body>
+   <h1> Water </h1>
+   <p>The script resembles the river </p>
+   <div class="imageGallery">
+    <figure>
+      <img src="water1.png">
+      <figcaption>Image</figcaption>
+    </figure>  
+    <figure>
+        <img src="water2.png">
+        <figcaption>Oracle bone script</figcaption>
+      </figure>  
+      <figure>
+        <img src="water3.png">
+        <figcaption>Modern Chinese Character</figcaption>
+      </figure>  
+      <input type="button" class="anybutton" id="myab" onclick="location.href='wine.html';"  value="Next example" />
+   </div>
+</body>
+</html>

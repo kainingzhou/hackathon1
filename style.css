@@ -1,0 +1,61 @@
+.rihide {
+    display: none;
+  }
+  
+  .riactivity img
+  {
+    cursor:pointer;
+    width:80%
+  }
+  
+  .ricorrect {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    padding: 2rem 2.5rem;
+    margin: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    width: 90%
+  }
+
+  .riincorrect {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    padding: 2rem 2.5rem;
+    margin: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    width: 90%
+  }
+  
+  .riitem {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    padding: 2rem 2.5rem;
+    margin: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: #111;
+    background-color: papayawhip;
+    width: 90%
+  }
+
+  h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: coral;
+    font-family: Arial, Helvetica, sans-serif 
+  }
+  

@@ -1,0 +1,66 @@
+<html>
+<head>
+   <title>Ancient bones</title>
+   <style>
+      .imageGallery {
+         display: flex;
+         flex-wrap: wrap;
+         gap: 3rem;
+         justify-content: center;
+      }
+      img {
+         width: 25rem;
+         height: 25rem;
+         border-radius: 8px;
+         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.489);
+         margin: 0%;
+      }
+
+      figcaption {
+        text-align: center;
+        font-size: x-large;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      h1 {
+        margin: 5%;
+        text-align: center;
+        font-size: 4vw;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: coral;
+      }
+
+      p {
+        margin: 5%;
+        text-align: center;
+        font-size: 2vw;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .anybutton {
+       bottom: 80%;
+       right: 5%;
+       width:120px;
+       height:60px;
+       position: absolute;
+       z-index: 2;
+       background: yellow; 
+       font-weight: bold;
+       font-size: medium;
+       }
+   </style>
+</head>
+<body>
+   <h1> Ancient bones shed light <br>on the evolution of Chinese characters</h1>
+   <p>Oracle bone inscriptions are ancient Chinese scripts<br> originated between 1600 and 1046 B.C. The bones have drawn the world's attention since their discovery back in 1899.  
+    These inscriptions not only offer clues to understand Chinese history and culture, but also are roots where modern Chinese character stem from.</p>
+   <div class="imageGallery">
+    <img src="bones.jpeg">
+    <img src="jiaguwen.jpeg">
+    <input type="button" class="anybutton" id="myab" onclick="location.href='field.html';"  value="See examples" />
+   </div>
+</body>
+</html>
+
