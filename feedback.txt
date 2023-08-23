@@ -1,0 +1,11 @@
+Kaining Zhou: picture quiz
+Project Structure:0/10
+HTML Structure:5/10
+CSS and Design: 5/10
+JS and DOM: 5/10
+Clarity: 6/10
+score: 6
+So interesting project! The idea is amazing I really enjoyed learning those chinese simbols.
+BUT unfortanelly the structure is very messy. You could make folder for each type of file, for instance.
+You could use much more DOM so you don't need a html for each type of symbol. 
+IN your script file the function names are not clear about what they do and it is not commented, making it really hard to follow.
